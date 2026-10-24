@@ -1,0 +1,11 @@
+a:link, a:visited {
+  color: #0000eeff;
+}
+
+.right {
+  float: right
+}
+
+body {
+  font-size: 100px
+}
