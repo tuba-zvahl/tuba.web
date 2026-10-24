@@ -1,0 +1,30 @@
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: white;
+  font-family: Times New Roman;
+}
+
+a:link, a:visited {
+  color: #0000eeff;
+}
+
+.sections {
+  font-size: 80px;
+}
+
+.sckool {
+  font-family: Times New Roman;
+  margin: 0;
+}
+
+.other {
+  font-family: Helvetica;
+  margin: 0;
+}
+
+i {
+  font-family: Times New Roman;
+}

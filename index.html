@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="main-icon.png">
+</head>
+
+<body>
+<!--website-->
+  <marquee id = "highlight">(what) love is - but you know what love is and what love does and what love says and what love means and where love goes and what love needs and what love brings and what love gives and what love has and what love holds and what love sees and what love shows and what love knows and what love is and what love does and what love says and what love means and where love goes and what love needs and what love brings and what love gives and what love has and what love holds and what love sees and what love shows and what love knows and what love is and what love does and what love says and what love means and where love goes and what love needs and what love brings and what love gives and what love has and what love holds and what love sees and what love shows and what love knows and what love is and what love does and what love says and what love means and where love goes and what love needs and what love brings and what love gives and what love has and what love holds and what love sees and what love shows and what love knows and what love is and what love does and what love says and what love means and where love goes and what love needs and what love brings and what love gives and what love has and what love holds and what love sees and what love shows and what love knows and what love is</marquee>
+<h3>
+  hi <br><br> welcome 2 my website
+</h3>
+
+<div class = "sections">
+<br><br><br><br>
+<div>
+  <a href="school-stuff/schoolstuffz.html" class = "sckool">&nbspsckool</a>
+</div>
+<div>
+  <a href="other-stuff/otherstuffz.html" class = "other">&nbsp&nbspother stu<i>fff</i></a>
+</div>
+
+
+
+
+  <img src="gifs/InsaneEmote.gif" style = "float: right" width="90" alt="im going insaen !!!">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+var storetext = document.getElementById("highlight");
+
+var hex = new Array(
+  "00","14","28","3C","50","64","78",
+  "8C","A0","B4","C8","DC","F0"
+);
+
+var r = 1;
+var g = 1;
+var b = 1;
+var seq = 1;
+
+function change() {
+  if (seq == 6) {
+    b--;
+    if (b == 0) seq = 1;
+  }
+
+  if (seq == 5) {
+    r++;
+    if (r == 12) seq = 6;
+  }
+
+  if (seq == 4) {
+    g--;
+    if (g == 0) seq = 5;
+  }
+
+  if (seq == 3) {
+    b++;
+    if (b == 12) seq = 4;
+  }
+
+  if (seq == 2) {
+    r--;
+    if (r == 0) seq = 3;
+  }
+
+  if (seq == 1) {
+    g++;
+    if (g == 12) seq = 2;
+  }
+
+  storetext.style.color = "#" + hex[r] + hex[g] + hex[b];
+}
+
+setInterval(change, 80);
+</script>
+</body>
+
+</html>
+
+
